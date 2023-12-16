@@ -2,7 +2,7 @@
 import { error } from 'console';
 import express from 'express';
 const app = express();
-import open from 'open';
+import open from 'open'; //allows automatic opening of localhost address
 
 
 // define all endpoints here
@@ -12,7 +12,7 @@ app.use(express.static('public'));
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, function () {
     console.log("Server started on port " + PORT);
-    open('http://localhost:8000/hello');
+    open('http://localhost:8000/hello');   //opens the local host address in browser
 });
 
 app.get('/hello', function (req, res) {
