@@ -1,0 +1,17 @@
+{
+  "name": "assignment-8",
+  "version": "1.0.0",
+  "description": "Assignment 8 node api thing",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "open": "^9.1.0"
+  },
+  "type": "module"
+}
